@@ -1,5 +1,19 @@
 # 🚗 Tesla Stock Price Prediction using Deep Learning
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://manojbari007-tesla-stock-price-prediction.streamlit.app)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/manojbari007/Tesla-Stock-Price-Prediction)
+
+## 🌐 Live Demo
+
+**👉 [Try the Streamlit App](https://manojbari007-tesla-stock-price-prediction.streamlit.app)**
+
+Experience the Tesla Stock Price Prediction model in action! Upload data, select prediction horizons, and visualize forecasts.
+
+---
+
 ## Project Overview
 
 This project implements deep learning models (SimpleRNN and LSTM) to predict Tesla stock prices for 1-day, 5-day, and 10-day horizons.
@@ -112,13 +126,11 @@ Input → LSTM(50) → Dropout(0.2) → LSTM(50) → Dropout(0.2) → Dense(1)
 ## 📊 Key Features
 
 1. **Data Preprocessing**
-
    - Forward fill for missing values (time-series appropriate)
    - MinMaxScaler normalization (0-1 range)
    - Sequential train-test split (80-20)
 
 2. **Model Training**
-
    - GridSearchCV for hyperparameter tuning
    - Early stopping to prevent overfitting
    - Model checkpointing for best weights
