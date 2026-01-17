@@ -1,6 +1,6 @@
 # 🚗 Tesla Stock Price Prediction using Deep Learning
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://manojbari007-tesla-stock-price-prediction.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://manojbari00-nzsqvlziczysrr2eexqtkr.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-**👉 [Try the Streamlit App](https://manojbari007-tesla-stock-price-prediction.streamlit.app)**
+**👉 [Try the Streamlit App](https://manojbari00-nzsqvlziczysrr2eexqtkr.streamlit.app/)**
 
 Experience the Tesla Stock Price Prediction model in action! Upload data, select prediction horizons, and visualize forecasts.
 
